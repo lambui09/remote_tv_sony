@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/apps_navigation"
+        android:icon="@drawable/ic_app"
+        android:title="Apps" />
+
+    <item
+        android:id="@+id/remote_navigation"
+        android:icon="@drawable/ic_remote"
+        android:title="Remote" />
+
+    <item
+        android:id="@+id/broadcast_navigation"
+        android:icon="@drawable/ic_broadcast"
+        android:title="Broadcast" />
+
+    <item
+        android:id="@+id/settings_navigation"
+        android:icon="@drawable/ic_settings"
+        android:title="Settings" />
+
+</menu>

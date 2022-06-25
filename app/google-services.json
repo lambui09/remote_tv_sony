@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "80727754124",
+    "project_id": "remote-tv-85929",
+    "storage_bucket": "remote-tv-85929.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80727754124:android:a7ec1804922d15328b82a9",
+        "android_client_info": {
+          "package_name": "com.lambd.mvvm_architecture.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80727754124-er69jq86bros63k8kju7kpbmhdgk694g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3m2tbfNa9hYryDCBJJxS1icfFpPWUlGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80727754124-er69jq86bros63k8kju7kpbmhdgk694g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80727754124-8qqs3ji52q0nppqin62p271v5pia0pks.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lambui.remote"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80727754124:android:9abe1b8ac2464ed18b82a9",
+        "android_client_info": {
+          "package_name": "com.remotelg.remotelg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80727754124-er69jq86bros63k8kju7kpbmhdgk694g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3m2tbfNa9hYryDCBJJxS1icfFpPWUlGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80727754124-er69jq86bros63k8kju7kpbmhdgk694g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "80727754124-8qqs3ji52q0nppqin62p271v5pia0pks.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lambui.remote"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

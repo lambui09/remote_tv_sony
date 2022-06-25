@@ -1,0 +1,56 @@
+name: Build CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  check-spotless:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./RemoteLG
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'zulu'
+          java-version: '11'
+
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
+      - name: Spotless check
+        run: ./gradlew spotlessCheck
+
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./RemoteLG
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'zulu'
+          java-version: '11'
+
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
+      - uses: gradle/wrapper-validation-action@v1.0.4
+
+      - name: Build debug APK
+        run: ./gradlew assembleDebug --warning-mode all --stacktrace
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v2
+        with:
+          name: app-debug
+          path: RemoteLG/app/build/outputs/apk/debug/*.apk

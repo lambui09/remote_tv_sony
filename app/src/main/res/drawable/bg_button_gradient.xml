@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/listview_background_shape">
+    <corners android:radius="6dp" />
+    <gradient android:angle="45"
+        android:startColor="#632FFC"
+        android:centerColor="#9A77FF"
+        android:endColor="#B399FF"
+        android:centerX="0.5"
+        android:centerY="1"/>
+</shape>

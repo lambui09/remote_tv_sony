@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/apps_navigation"
+    app:startDestination="@id/appsFragment">
+
+    <fragment
+        android:id="@+id/appsFragment"
+        android:name="com.remotelg.remotelg.ui.apps.AppsFragment"
+        android:label="Apps" />
+
+</navigation>

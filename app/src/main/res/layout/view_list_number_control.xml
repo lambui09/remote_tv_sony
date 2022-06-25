@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lnPassCodeContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_marginEnd="@dimen/dp_16">
+
+        <com.remotelg.remotelg.utils.widget.PassCodeView
+            android:id="@+id/passCode1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:passViewNumber="@string/text_number_1" />
+
+        <com.remotelg.remotelg.utils.widget.PassCodeView
+            android:id="@+id/passCode2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:passViewNumber="@string/text_number_2" />
+
+        <com.remotelg.remotelg.utils.widget.PassCodeView
+            android:id="@+id/passCode3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:passViewNumber="@string/text_number_3" />
+
+        <com.remotelg.remotelg.utils.widget.PassCodeView
+            android:id="@+id/passCode4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:passViewNumber="@string/text_number_4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_marginEnd="@dimen/dp_16">
+
+        <com.remotelg.remotelg.utils.widget.PassCodeView
+            android:id="@+id/passCode5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:passViewNumber="@string/text_number_5" />
+
+        <com.remotelg.remotelg.utils.widget.PassCodeView
+            android:id="@+id/passCode6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:passViewNumber="@string/text_number_6" />
+
+        <com.remotelg.remotelg.utils.widget.PassCodeView
+            android:id="@+id/passCode7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:passViewNumber="@string/text_number_7" />
+
+        <com.remotelg.remotelg.utils.widget.PassCodeView
+            android:id="@+id/passCode8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:passViewNumber="@string/text_number_8" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_marginEnd="@dimen/dp_16">
+
+        <com.remotelg.remotelg.utils.widget.ButtonCustom
+            android:id="@+id/ivPre"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:icon="@drawable/ic_back_character" />
+
+        <com.remotelg.remotelg.utils.widget.PassCodeView
+            android:id="@+id/passCode9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:passViewNumber="@string/text_number_9" />
+
+        <com.remotelg.remotelg.utils.widget.PassCodeView
+            android:id="@+id/passCode0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:passViewNumber="@string/text_number_0" />
+
+        <com.remotelg.remotelg.utils.widget.ButtonCustom
+            android:id="@+id/ivPause"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            app:icon="@drawable/ic_record" />
+    </LinearLayout>
+</LinearLayout>
